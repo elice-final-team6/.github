@@ -1,7 +1,9 @@
-<h1>Mong Mong Village : 멍멍빌리지</h1>
 <div align="center">
-  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Felice-final-team6&count_bg=%23FFD100&title_bg=%23555555&icon=datadog.svg&icon_color=%23FFD100&title=hits&edge_flat=false"/></a>
+  <h1>Mong Mong Village : 멍멍빌리지
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Felice-final-team6&count_bg=%23FFD100&title_bg=%23555555&icon=datadog.svg&icon_color=%23FFD100&title=hits&edge_flat=false"/></a></h1>
 </div>
+
+![image](https://github.com/elice-final-team6/.github/assets/33516975/3f46180e-1bb5-4019-91c4-55f7c2e0922c)
 
 에견인들을 위한 커뮤니티와 서울의 애견카페 리뷰 및 정보공유 사이트<br/>
 
@@ -43,23 +45,36 @@ PW : adminpw1234
 | 이지형 | 팀원  |  프론트엔드        |
 | 임가림 | 팀원  |  백엔드        |
 
-## 프로젝트 소개
 
+## 화면 구성 
+- 반응형 웹을 적용하여 태블릿 및 모바일 환경에서는 다르게 보일 수 있음
 
-## 화면 구성
-| 메인 페이지                           | 커뮤니티 페이지                         | 카페지도 페이지                         |
+| 메인 페이지                           | **커뮤니티** 목록 / 상세 페이지                         | **카페** 지도/리스트/상세 페이지                         |
 |---------------------------------------|------------------------------------------|------------------------------------------|
-| <img src="https://github.com/elice-final-team6/.github/assets/33516975/b401b9e4-df96-403e-b62a-edea31c44d7b" width="400"/>
- | ![](https://example.com/community1.jpg)   | ![](https://example.com/cafemap1.jpg)     |
-|  | ![](https://example.com/community2.jpg)   | ![](https://example.com/cafemap2.jpg)     |
-| ![](https://example.com/mainpage3.jpg) | ![](https://example.com/community3.jpg)   | ![](https://example.com/cafemap3.jpg)     |
+|![main](https://github.com/elice-final-team6/.github/assets/33516975/5f487377-36c1-4e74-8102-d5309017b069)| ![community](https://github.com/elice-final-team6/.github/assets/33516975/0aaadb95-6e83-4f67-9897-2cfa073a4ae3)| ![cafe](https://github.com/elice-final-team6/.github/assets/33516975/2ee0ad84-6c8f-498e-a1e6-e3b02a63946b)|
 
-메인페이지
+|**리뷰** 목록/상세 페이지                           | 로그인 / 회원가입 페이지                         | 마이페이지 / 내활동 페이지                         |
+|---------------------------------------|------------------------------------------|------------------------------------------|
+|![review](https://github.com/elice-final-team6/.github/assets/33516975/8c553cd9-1e2a-4050-9bc8-d66a59b0e413)| ![auth](https://github.com/elice-final-team6/.github/assets/33516975/da6148da-27c9-41af-847a-834e987b576b)| ![my](https://github.com/elice-final-team6/.github/assets/33516975/3fb83397-810e-4cfd-825e-71b164e14a5b)|
 
 
 ## 주요 기능
-
-### 프론트엔드 디렉터리 구조 
-
-### 백엔드 디렉터리 구조
+| 섹션        | 기능                                      | 섹션          | 기능                                          |
+|-------------|-------------------------------------------|---------------|-----------------------------------------------|
+| **메인페이지**  | 1. 배너이미지 자동 슬라이드                 | **커뮤니티**     | 1. 카테고리 별 필터링                            |
+|             | 2. 애견카페 검색 이동                        |               | 2. 인기순 / 최신순 sorting                      |
+|             | 3. 인기 애견카페 추천                        |               | 3. 검색 기능                                   |
+|             | 4. 인기글 추천                             |               | 4. 페이지네이션                                |
+|             |                                           |               | 5. 게시글 작성 / 수정 / 삭제 기능                |
+|             |                                           |               | 6. 댓글 작성 수정 / 삭제                        |
+|             |                                           |               | 7. 좋아요 기능                                 |
+| **카페**      | 1. 카페 지도 검색                          | **리뷰**        | 1. 리뷰 작성  (별점 매기기) / 수정 / 삭제       |
+|             | 2. 전체 카페 리스트                         |               | 2. 별점 높은 순 / 최신순 sorting                |
+|             | 3. 카페 상세 정보                          |               | 3. 페이지네이션                                |
+|             | 4. 카페 별 리뷰 모아보기                    |               | 4. 같은 카페의 리뷰 모아보기                    |
+|             | 5. 별점 계산                               |             |                                           |
+| **회원가입**  | 1. 아이디 및 닉네임 중복확인               | **마이페이지**   | 1. 내 정보 수정 (프로필사진, 닉네임, 소개글)     |
+|             | 2. 비밀번호 일치 확인                      |               | 2. 내 활동 모아보기 (작성글, 작성댓글, 좋아요, 작성리뷰) |
+|             | 3. 약관 확인 창                           
+| **헤더 / 푸터**  | 1. 네비게이터                                 |
 
