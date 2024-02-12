@@ -6,6 +6,7 @@
 ![mongmong](https://github.com/elice-final-team6/MongMongVillage-FE/assets/33516975/42de15ba-cd42-441d-9bd7-632f2b9570da)
 
 에견인들을 위한 커뮤니티와 서울의 애견카페 리뷰 및 정보공유 사이트<br/>
+엘리스 SW트랙 6기 최종 팀프로젝트 최우우상🏅수상
 
 ## 개발기간 
 2023.11 ~ 2023.01
